@@ -1,0 +1,82 @@
+<?php
+
+// legal URL: /u592.jpg
+
+$statdata = array (
+  0 => 2049,
+  1 => 405943,
+  2 => 33206,
+  3 => 1,
+  4 => 33,
+  5 => 33,
+  6 => 0,
+  7 => 131310,
+  8 => 1366612975,
+  9 => 1366612973,
+  10 => 1366612973,
+  11 => 4096,
+  12 => 264,
+  'dev' => 2049,
+  'ino' => 405943,
+  'mode' => 33206,
+  'nlink' => 1,
+  'uid' => 33,
+  'gid' => 33,
+  'rdev' => 0,
+  'size' => 131310,
+  'atime' => 1366612975,
+  'mtime' => 1366612973,
+  'ctime' => 1366612973,
+  'blksize' => 4096,
+  'blocks' => 264,
+);
+
+$data = array (
+  'mime_type' => 'image/jpeg',
+  'analysis' => 
+  array (
+    'GETID3_VERSION' => '1.9.3-20111213',
+    'filesize' => 131310,
+    'filename' => 'u592.jpg',
+    'filepath' => '/var/www/rebelsound/files',
+    'filenamepath' => '/var/www/rebelsound/files/u592.jpg',
+    'avdataoffset' => 0,
+    'avdataend' => 131310,
+    'fileformat' => 'jpg',
+    'video' => 
+    array (
+      'dataformat' => 'jpg',
+      'lossless' => false,
+      'bits_per_sample' => 24,
+      'pixel_aspect_ratio' => 1,
+      'resolution_x' => 538,
+      'resolution_y' => 173,
+      'compression_ratio' => 0.4702709671874,
+    ),
+    'encoding' => 'UTF-8',
+    'mime_type' => 'image/jpeg',
+  ),
+  'mime_type from file extension' => 'image/jpeg',
+  'thumb250_direct' => '/files/.thumbs/.backend/cf/5a/c2d0_u592b341f148b93f8c9b0b94c3cb-500x500.jpg',
+  'thumb250_info' => 
+  array (
+    0 => 500,
+    1 => 161,
+    2 => 2,
+    3 => 'width="500" height="161"',
+    'bits' => 8,
+    'channels' => 3,
+    'mime' => 'image/jpeg',
+  ),
+  'thumb48_direct' => '/files/.thumbs/.backend/cf/5a/c2d0_u592b341f148b93f8c9b0b94c3cb-120x120.jpg',
+  'thumb48_info' => 
+  array (
+    0 => 120,
+    1 => 39,
+    2 => 2,
+    3 => 'width="120" height="39"',
+    'bits' => 8,
+    'channels' => 3,
+    'mime' => 'image/jpeg',
+  ),
+);

@@ -1,0 +1,156 @@
+<?php
+
+// legal URL: /logo_fond.png
+
+$statdata = array (
+  0 => 2049,
+  1 => 405907,
+  2 => 33206,
+  3 => 1,
+  4 => 33,
+  5 => 33,
+  6 => 0,
+  7 => 57388,
+  8 => 1366605408,
+  9 => 1366605407,
+  10 => 1366605407,
+  11 => 4096,
+  12 => 120,
+  'dev' => 2049,
+  'ino' => 405907,
+  'mode' => 33206,
+  'nlink' => 1,
+  'uid' => 33,
+  'gid' => 33,
+  'rdev' => 0,
+  'size' => 57388,
+  'atime' => 1366605408,
+  'mtime' => 1366605407,
+  'ctime' => 1366605407,
+  'blksize' => 4096,
+  'blocks' => 120,
+);
+
+$data = array (
+  'mime_type' => 'image/png',
+  'analysis' => 
+  array (
+    'GETID3_VERSION' => '1.9.3-20111213',
+    'filesize' => 57388,
+    'filename' => 'logo_fond.png',
+    'filepath' => '/var/www/rebelsound/files',
+    'filenamepath' => '/var/www/rebelsound/files/logo_fond.png',
+    'avdataoffset' => 0,
+    'avdataend' => 57388,
+    'fileformat' => 'png',
+    'video' => 
+    array (
+      'dataformat' => 'png',
+      'lossless' => false,
+      'resolution_x' => 518,
+      'resolution_y' => 466,
+      'bits_per_sample' => 32,
+      'compression_ratio' => 0.059435431753028,
+    ),
+    'encoding' => 'UTF-8',
+    'mime_type' => 'image/png',
+    'png' => 
+    array (
+      'IHDR' => 
+      array (
+        'header' => 
+        array (
+          'data_length' => 13,
+          'type_text' => 'IHDR',
+          'type_raw' => 1229472850,
+          'data' => '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'Ò' . "\0" . '' . "\0" . '' . "\0" . '',
+          'crc' => 2541224708,
+          'flags' => 
+          array (
+            'ancilliary' => false,
+            'private' => false,
+            'reserved' => false,
+            'safe_to_copy' => false,
+          ),
+        ),
+        'width' => 518,
+        'height' => 466,
+        'raw' => 
+        array (
+          'bit_depth' => 8,
+          'color_type' => 6,
+          'compression_method' => 0,
+          'filter_method' => 0,
+          'interlace_method' => 0,
+        ),
+        'compression_method_text' => 'deflate/inflate',
+        'color_type' => 
+        array (
+          'palette' => false,
+          'true_color' => true,
+          'alpha' => true,
+        ),
+      ),
+      'IDAT' => 
+      array (
+        0 => 
+        array (
+          'header' => 
+          array (
+            'data_length' => 8107,
+            'type_text' => 'IDAT',
+            'type_raw' => 1229209940,
+            'crc' => 2531711678,
+            'flags' => 
+            array (
+              'ancilliary' => false,
+              'private' => false,
+              'reserved' => false,
+              'safe_to_copy' => false,
+            ),
+          ),
+        ),
+      ),
+      'IEND' => 
+      array (
+        'header' => 
+        array (
+          'data_length' => 0,
+          'type_text' => 'IEND',
+          'type_raw' => 1229278788,
+          'crc' => 2923585666,
+          'flags' => 
+          array (
+            'ancilliary' => false,
+            'private' => false,
+            'reserved' => false,
+            'safe_to_copy' => false,
+          ),
+          'data' => '',
+        ),
+      ),
+      'encoding' => 'UTF-8',
+    ),
+  ),
+  'mime_type from file extension' => 'image/png',
+  'thumb250_direct' => '/files/.thumbs/.backend/f3/a4/629f_logo_fondae7c2c3c7663a7cd17d73d15-500x500.png',
+  'thumb250_info' => 
+  array (
+    0 => 500,
+    1 => 450,
+    2 => 3,
+    3 => 'width="500" height="450"',
+    'bits' => 8,
+    'mime' => 'image/png',
+  ),
+  'thumb48_direct' => '/files/.thumbs/.backend/f3/a4/629f_logo_fondae7c2c3c7663a7cd17d73d15-120x120.png',
+  'thumb48_info' => 
+  array (
+    0 => 120,
+    1 => 108,
+    2 => 3,
+    3 => 'width="120" height="108"',
+    'bits' => 8,
+    'mime' => 'image/png',
+  ),
+);

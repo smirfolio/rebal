@@ -1,0 +1,156 @@
+<?php
+
+// legal URL: /u1553.png
+
+$statdata = array (
+  0 => 2049,
+  1 => 405905,
+  2 => 33206,
+  3 => 1,
+  4 => 33,
+  5 => 33,
+  6 => 0,
+  7 => 5244,
+  8 => 1366601939,
+  9 => 1366601938,
+  10 => 1366601938,
+  11 => 4096,
+  12 => 16,
+  'dev' => 2049,
+  'ino' => 405905,
+  'mode' => 33206,
+  'nlink' => 1,
+  'uid' => 33,
+  'gid' => 33,
+  'rdev' => 0,
+  'size' => 5244,
+  'atime' => 1366601939,
+  'mtime' => 1366601938,
+  'ctime' => 1366601938,
+  'blksize' => 4096,
+  'blocks' => 16,
+);
+
+$data = array (
+  'mime_type' => 'image/png',
+  'analysis' => 
+  array (
+    'GETID3_VERSION' => '1.9.3-20111213',
+    'filesize' => 5244,
+    'filename' => 'u1553.png',
+    'filepath' => '/var/www/rebelsound/files',
+    'filenamepath' => '/var/www/rebelsound/files/u1553.png',
+    'avdataoffset' => 0,
+    'avdataend' => 5244,
+    'fileformat' => 'png',
+    'video' => 
+    array (
+      'dataformat' => 'png',
+      'lossless' => false,
+      'resolution_x' => 59,
+      'resolution_y' => 42,
+      'bits_per_sample' => 32,
+      'compression_ratio' => 0.52905569007264,
+    ),
+    'encoding' => 'UTF-8',
+    'mime_type' => 'image/png',
+    'png' => 
+    array (
+      'IHDR' => 
+      array (
+        'header' => 
+        array (
+          'data_length' => 13,
+          'type_text' => 'IHDR',
+          'type_raw' => 1229472850,
+          'data' => '' . "\0" . '' . "\0" . '' . "\0" . ';' . "\0" . '' . "\0" . '' . "\0" . '*' . "\0" . '' . "\0" . '' . "\0" . '',
+          'crc' => 229581709,
+          'flags' => 
+          array (
+            'ancilliary' => false,
+            'private' => false,
+            'reserved' => false,
+            'safe_to_copy' => false,
+          ),
+        ),
+        'width' => 59,
+        'height' => 42,
+        'raw' => 
+        array (
+          'bit_depth' => 8,
+          'color_type' => 6,
+          'compression_method' => 0,
+          'filter_method' => 0,
+          'interlace_method' => 0,
+        ),
+        'compression_method_text' => 'deflate/inflate',
+        'color_type' => 
+        array (
+          'palette' => false,
+          'true_color' => true,
+          'alpha' => true,
+        ),
+      ),
+      'IDAT' => 
+      array (
+        0 => 
+        array (
+          'header' => 
+          array (
+            'data_length' => 5187,
+            'type_text' => 'IDAT',
+            'type_raw' => 1229209940,
+            'crc' => 3135289750,
+            'flags' => 
+            array (
+              'ancilliary' => false,
+              'private' => false,
+              'reserved' => false,
+              'safe_to_copy' => false,
+            ),
+          ),
+        ),
+      ),
+      'IEND' => 
+      array (
+        'header' => 
+        array (
+          'data_length' => 0,
+          'type_text' => 'IEND',
+          'type_raw' => 1229278788,
+          'crc' => 2923585666,
+          'flags' => 
+          array (
+            'ancilliary' => false,
+            'private' => false,
+            'reserved' => false,
+            'safe_to_copy' => false,
+          ),
+          'data' => '',
+        ),
+      ),
+      'encoding' => 'UTF-8',
+    ),
+  ),
+  'mime_type from file extension' => 'image/png',
+  'thumb250_direct' => '/files/.thumbs/.backend/b5/72/7749_u1553d61a411daea4c08d2f1568f0-500x500.png',
+  'thumb250_info' => 
+  array (
+    0 => 59,
+    1 => 42,
+    2 => 3,
+    3 => 'width="59" height="42"',
+    'bits' => 8,
+    'mime' => 'image/png',
+  ),
+  'thumb48_direct' => '/files/.thumbs/.backend/b5/72/7749_u1553d61a411daea4c08d2f1568f0-120x120.png',
+  'thumb48_info' => 
+  array (
+    0 => 59,
+    1 => 42,
+    2 => 3,
+    3 => 'width="59" height="42"',
+    'bits' => 8,
+    'mime' => 'image/png',
+  ),
+);
